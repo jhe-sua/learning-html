@@ -1,31 +1,36 @@
 <html>
 <head>
-    <title>utuTeste2</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Lehinho</title>
 </head>
 <body>
     <header>
-    <h1>Lehinho</h1>
-        <img src="/home/tutu/Code/learning-html/lehirolim.png" height="232" alt="Foto de lehirolim">
+    <!--Imagem de perfil do lehinho-->
+    <h1 id="h1_lehinho">Lehinho</h1>
+        <img src="/home/tutu/Code/learning-html/lehinho/img/lehirolim.png" alt="Foto de lehirolim" class="center-img">
     </header>
     <main>
-    <p><b>caracteristicas:</b><br> 
+    <!--caracteristicas-->
+    <h2>Caracteristicas</h2>
+    <br><div class="caracteristicas">
         <ul>
             <li> Pequeno </li>
             <li> Gosta de comer bolo de chocolate</li>
         </ul>
-    </p>
+    </div>
     <form>
+    <!--acresente mais caracteristicas-->
         <label for="maisCaracteristicas">Acresente mais caracteristicas:</label><br>
-            <input type="text" id="maisCaracteristicas" name="caracteristicas"><br><br>
+            <input type="text" id="MC"><br>
     </main>
     <footer>
+    <!--opiniao sobre o site-->
         <label for="opiniao">Gostou do site ?</label><br>
         <select name="opiniao" id="opiniao">
             <option value="blank" selected></option>
             <option value="sim">Sim</option>
             <option value="não">Não</option>
-            </select><br><br>
-            <input type="submit">
+            </select>
         </form>
     </footer> 
 </body>

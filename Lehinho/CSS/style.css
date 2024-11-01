@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+h1, h2, p, label, ul, ::marker{
+    color: aliceblue;
+}
+#lehi{
+    width: 15%;
+
+}
+.center-img{
+    display: block; /* Evita comportamento inline */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    max-width: 100%; /* Ajusta para não ultrapassar o tamanho do container */
+    height: auto; /* Mantém a proporção */
+  }
+  
+/* negrito */
+
